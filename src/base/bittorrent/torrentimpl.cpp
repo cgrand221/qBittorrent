@@ -810,7 +810,7 @@ void TorrentImpl::removeUrlSeeds(const QList<QUrl> &urlSeeds)
 
 void TorrentImpl::clearPeers()
 {
-    m_nativeHandle.clear_peers();
+    // m_nativeHandle.clear_peers();
 }
 
 bool TorrentImpl::connectPeer(const PeerAddress &peerAddress)
